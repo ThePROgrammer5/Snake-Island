@@ -1,4 +1,3 @@
-alert('start')
 let head = new Image();
 head.src = 'snakeHead.png';
 let body = new Image();
@@ -15,4 +14,3 @@ function drawSnake() {
   ctx.drawImage(body, 0, 0);
   ctx.drawImage(head, 0, 0);
 }
-alert("done")
