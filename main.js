@@ -7,7 +7,7 @@ body.onload = function() {
   drawSnake();
 };
 
-let canvas = document.querySelector('canvas');
+let canvas = document.getElementById('canvas');
 let ctx = canvas.getContext('2d');
 
 function drawSnake() {
