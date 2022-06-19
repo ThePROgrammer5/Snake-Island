@@ -1,8 +1,6 @@
 let canvas = document.querySelector('canvas');
 let ctx = canvas.getContext('2d');
 
-let head = new Image('snakeHead.png');
-ctx.drawImage(head, 0, 0, 100, 100, 0, 0, 100, 100);
+ctx.drawImage('snakeHead.png', 0, 0, 100, 100, 0, 0, 100, 100);
 
-let body = new Image('snakeBody.png');
-ctx.drawImage(body, 0, 0, 100, 100, 0, 0, 100, 100);
+ctx.drawImage('snakeBody.png', 0, 0, 100, 100, 0, 0, 100, 100);
